@@ -19,7 +19,7 @@ body, html{
 nav{
     position: relative;
     height: 8vh;
-    min-height: 5vh;
+    min-height: 40px;
 }
 
 nav li{
@@ -66,7 +66,7 @@ font-family: 'Lobster', cursive;
 .sdSignature img{
     height: 7.5vh;
     width: auto;
-    margin: .5rem 0 0 0;
+    margin: 0;
 }
 
 /* =====================HEADER===================== */
