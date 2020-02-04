@@ -19,6 +19,7 @@ body, html{
 nav{
     position: relative;
     height: 8vh;
+    min-height: 5vh;
 }
 
 nav li{
@@ -73,6 +74,7 @@ header{
     position: relative;
     width: 100%;
     height: 92vh;
+    max-height: 95vh;
     background: url(https://wallsdesk.com/wp-content/uploads/2017/01/Salvador-Dali-Wallpapers.jpg) no-repeat;
     background-position: center;
     background-size: cover;
