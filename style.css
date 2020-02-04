@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+
 *{
     padding: 0;
     margin: 0;
@@ -6,37 +8,108 @@
 body, html{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 15px;
+    color: #222222;
     font-weight: normal;
-    background-color: aliceblue;
+    background-color: #D7D8D0;
     width: 100%;
     height: 100vh;
 }
 
-/* NAV */
+/* =====================NAV===================== */
 nav{
+    position: relative;
+    height: 8vh;
+}
+
+nav li{
+    list-style-type: none;
+}
+
+nav .workLink {
+    position: absolute;
+    left: 20%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+nav .lifeLink {
+    position: absolute;
+    left: 80%;
+    top: 60%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.workLink a,
+.lifeLink a{
+    color: #222222 !important;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.workLink a:hover,
+.lifeLink a:hover{
+font-family: 'Lobster', cursive;
+}
+
+.sdSignature {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+
+.sdSignature img{
     height: 7.5vh;
-
-    border: 1px solid lime;
-
+    width: auto;
+    margin: .5rem 0 0 0;
 }
-/* HEADER */
+
+/* =====================HEADER===================== */
 header{
+    position: relative;
     width: 100%;
-    height: 92.5vh;
-
-    border: 1px solid blue;
-
+    height: 92vh;
+    background: url(https://wallsdesk.com/wp-content/uploads/2017/01/Salvador-Dali-Wallpapers.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
 }
-/* MAIN */
+
+header .heroText{
+    position: absolute;
+    left: 20%;
+    top: 40%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+.heroText h1{
+    font-size: 3rem;
+    text-transform: uppercase;
+}
+
+.heroText p{
+    font-size: 1.5rem;
+}
+
+.heroText p span{
+    font-family: 'Lobster', cursive !important;
+}
+
+/* =====================MAIN===================== */
 main{
     border: 1px solid orange;
 }
-/* FOOTER */
+/* =====================FOOTER===================== */
 footer{
     width: 100%;
     height: 2.5rem;
     text-align: center;
-    background-color: grey;
+    background-color: #D7D8D0;
 
     border: 1px solid red;
 
