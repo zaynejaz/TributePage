@@ -101,9 +101,27 @@ header .heroText{
 }
 
 /* =====================MAIN===================== */
-main{
+#main{
+    width: 100%;
+    height: auto;
+    background-color: lime;
+
     border: 1px solid orange;
 }
+
+section{
+    width: 80%;
+    height: auto;
+}
+
+section #img-div{
+    
+}
+
+section #tribute-info{
+
+}
+
 /* =====================FOOTER===================== */
 footer{
     width: 100%;
