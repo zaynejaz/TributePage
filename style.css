@@ -65,6 +65,7 @@ font-family: 'Lobster', cursive;
 
 .sdSignature img{
     height: 7.5vh;
+    min-height:38px;
     width: auto;
     margin: 0;
 }
