@@ -102,25 +102,59 @@ header .heroText{
 
 /* =====================MAIN===================== */
 #main{
+    position: relative;
     width: 100%;
     height: auto;
-    background-color: lime;
+    background-color: inherit;
 
-    border: 1px solid orange;
 }
 
 section{
-    width: 80%;
+    width: 100%;
     height: auto;
+    text-align: center;
 }
 
-section #img-div{
-    
+#tribute-info{
+    display:  inline-block; 
+    width: 50%;
+    margin: 0 auto;
+}
+
+#img-div{
+    display:  inline-block; 
+    margin: 0 auto;
+}
+
+#img-caption{
+ margin: 3rem 0;
+ font-size: 2rem;
+ text-transform: uppercase;
+}
+.container {
+    font-size: 40px;
+    min-height: 300px;
+    width: 100%;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 1fr 1fr;
+    grid-gap: 10px;
+}
+
+#image{
+    display:block;
+    margin:auto;
 }
 
 section #tribute-info{
 
 }
+
+
+
+
+
 
 /* =====================FOOTER===================== */
 footer{
