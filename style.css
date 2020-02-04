@@ -25,7 +25,7 @@ nav li{
     list-style-type: none;
 }
 
-nav .workLink {
+nav .lifeLink {
     position: absolute;
     left: 20%;
     top: 60%;
@@ -33,7 +33,7 @@ nav .workLink {
     transform: translate(-50%, -50%);
 }
 
-nav .lifeLink {
+nav .workLink {
     position: absolute;
     left: 80%;
     top: 60%;
@@ -156,7 +156,10 @@ section{
 
 #img-div{
     display: inline-block; 
-    margin: 0 auto;
+    margin: 2.5rem auto;
+    background-color: #fff;
+    padding: 2.5rem 3rem;
+    width: 100%;
 }
 
 #img-caption h2{
@@ -186,12 +189,25 @@ section{
     height: auto;
     background-color: inherit;
 }
-#legacy p{
-    display:  inline-block; 
-    width: 80%;
-    margin: 0 auto;
+
+#legacy h2{
+    margin: 4rem 0 3rem 0;
+    font-size: 2rem;
+    text-transform: uppercase;
 }
 
+#legacy p{
+    display:  inline-block; 
+    width: 50%;
+    margin: 0 auto;
+    line-height: 1.6rem;
+}
+
+#tribute-link{
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
 
 
 
@@ -199,11 +215,16 @@ section{
 
 /* =====================FOOTER===================== */
 footer{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     width: 100%;
     height: 2.5rem;
     text-align: center;
-    background-color: #D7D8D0;
+    background-color: #fff;
+    color: #222222;
+}
 
-    border: 1px solid red;
-
+footer a{
+    color: #22a2e1;
+    text-decoration: none;
 }
