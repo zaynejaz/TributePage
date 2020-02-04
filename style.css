@@ -106,7 +106,6 @@ header .heroText{
     width: 100%;
     height: auto;
     background-color: inherit;
-
 }
 
 section{
@@ -117,17 +116,51 @@ section{
 
 #tribute-info{
     display:  inline-block; 
-    width: 50%;
+    width: 80%;
     margin: 0 auto;
 }
+
+#tribute-container {
+    display: flex;
+    height: auto;
+    line-height: 1.5rem;
+}
+
+  .tribute-bio {
+    width: 50%;
+    height: 50%;
+    margin-right: 2rem;
+  }
+
+  .tribute-bio p{
+    text-align: justify;
+  }
+  
+
+  .tribute-honours {
+    width: 50%;
+    height: 50%;
+  }
+
+  .tribute-bio h2,
+  .tribute-honours h2{
+    margin: 3rem 0;
+    font-size: 2rem;
+  }
+
+  .tribute-honours li{
+    margin-left: 2rem;
+    text-align: left;
+  }
+
 
 #img-div{
-    display:  inline-block; 
+    display: inline-block; 
     margin: 0 auto;
 }
 
-#img-caption{
- margin: 3rem 0;
+#img-caption h2{
+ margin: 4rem 0 3rem 0;
  font-size: 2rem;
  text-transform: uppercase;
 }
@@ -147,8 +180,16 @@ section{
     margin:auto;
 }
 
-section #tribute-info{
-
+#legacy{
+    position: relative;
+    width: 100%;
+    height: auto;
+    background-color: inherit;
+}
+#legacy p{
+    display:  inline-block; 
+    width: 80%;
+    margin: 0 auto;
 }
 
 
